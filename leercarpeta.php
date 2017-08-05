@@ -20,9 +20,8 @@ foreach ($ficheros as $fichero => $valor) {
 	$infoArchivo['ruta'] = $rutaBase;
 	$infoArchivo['raiz'] = dirname($rutaBase, 1);
 	if ($valor != '.' && $valor!='..') {
-		array_push($resultados, $infoArchivo);
+		array_push($resultados, $infoArchivo);	
 	}
-		
 }
 function obtenerExtension($rutaDeArchivo){
 	$tipo = filetype($rutaDeArchivo);
