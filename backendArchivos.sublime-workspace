@@ -3,10 +3,78 @@
 	{
 		"selected_items":
 		[
+			[
+				"_",
+				"_SERVER"
+			],
+			[
+				"nue",
+				"nuevo-archivo"
+			],
+			[
+				"g",
+				"_GET"
+			],
+			[
+				"GET",
+				"GET"
+			],
+			[
+				"G",
+				"_GET"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"strip",
+				"stripslashes"
+			],
+			[
+				"ruta",
+				"rutaBase"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ini",
+				"ini_set"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "leercarpeta.php",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-lista-de-archivos',\n  templateUrl: './lista-de-archivos.component.html',\n  styleUrls: ['./lista-de-archivos.component.css']\n})\nexport class ListaDeArchivosComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n",
+			"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
+			"file_size": 311,
+			"file_write_time": 131465151816388463,
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,10 +83,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 154.0,
-		"last_filter": "instal",
+		"height": 392.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -28,7 +104,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 497.0
+		"width": 774.0
 	},
 	"console":
 	{
@@ -43,23 +119,27 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": false,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/Backend"
+		"/var/www/html/Backend",
+		"/var/www/html/Backend/servicios"
 	],
 	"file_history":
 	[
+		"/var/www/html/Backend/servicios/borrar-archivos.php",
+		"/var/www/html/Backend/servicios/renombrar-archivos.php",
+		"/var/www/html/Backend/.gitignore"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 98.0,
 		"where_history":
 		[
 		]
@@ -69,6 +149,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t$"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -76,6 +157,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$infoArchivo['tamaño']= filesize($rutaBase.'/'.$valor);"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -86,18 +168,76 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "leercarpeta.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Textile/Textile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -130,7 +270,7 @@
 	"project": "backendArchivos.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -144,21 +284,25 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 64.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"obtenerExtension"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -168,7 +312,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 213.0,
+	"side_bar_width": 388.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

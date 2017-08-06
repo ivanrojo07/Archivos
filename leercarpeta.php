@@ -7,7 +7,7 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET");
 header("Content-Type: application/json");
 
-$rutaBase = '../archivos';
+$rutaBase = 'archivos';
 $ficheros = scandir($rutaBase);
 $resultados = [];
 foreach ($ficheros as $fichero => $valor) {
@@ -16,7 +16,7 @@ foreach ($ficheros as $fichero => $valor) {
 	$infoArchivo['tipo'] = filetype($rutaBase.'/'.$valor);
 	$infoArchivo['extension']= obtenerExtension($rutaBase.'/'.$valor);
 	//$infoArchivo['tamaño']= filesize($rutaBase.'/'.$valor);
-	$infoArchivo['tamaño']= convertirBytes(filesize($rutaBase.'/'.$valor));
+	$infoArchivo['tamano']= convertirBytes(filesize($rutaBase.'/'.$valor));
 	$infoArchivo['ruta'] = $rutaBase;
 	$infoArchivo['raiz'] = dirname($rutaBase, 1);
 	if ($valor != '.' && $valor!='..') {
