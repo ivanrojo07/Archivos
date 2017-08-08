@@ -1,3 +1,6 @@
-<div *ngFor='let archivo of archivos'>
-	{{archivo.nombre}}
-</div>
+<ul class="list-unstyle">
+	
+	<li *ngFor='let archivo of archivos' class="container">
+		<app-archivo [archivoInfo]="archivo" (cambioArchivo)="refrescar()"></app-archivo>
+	</li> 
+</ul>

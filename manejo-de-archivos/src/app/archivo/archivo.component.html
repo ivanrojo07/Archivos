@@ -1,0 +1,20 @@
+<div *ngIf="!edicionArchivo">
+		<i class="{{archivoInfo.extension | filtroExtension}}" aria-hidden="true"></i>
+	   | {{archivoInfo.nombre}}
+
+	<span>{{archivoInfo.tamano}}</span>
+	<span class="herramientas">
+		<span class="item editar">
+			<i class="fa fa-pencil-square-o" aria-hidden="true" (click)="activarEdicion(archivoInfo.nombre)"></i>
+		</span>
+		<span class="item borrar">
+			<i class="fa fa-trash" aria-hidden="true" (click)="borrar(archivoInfo)"></i>
+		</span>
+	</span>
+</div>
+
+<div *ngIf="edicionArchivo">
+<input type="text" [(ngModel)]="modeloArchivo.nuevoNombre">
+	<button (click)="renombrar(archivoInfo)">Ok</button>
+	<button (click)="desactivarEdicion()">Cancelar</button>
+</div>

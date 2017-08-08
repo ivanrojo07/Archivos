@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"Ar",
+				"ArchivoServiceService"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"archivo",
+				"archivoService"
+			],
+			[
+				"Arch",
+				"ArchivoServiceService"
+			],
+			[
+				"Archivo",
+				"ArchivoInfo"
+			],
+			[
+				"Ht",
+				"HttpModule"
+			],
+			[
 				"_",
 				"_SERVER"
 			],
@@ -56,22 +84,119 @@
 	"buffers":
 	[
 		{
-			"file": "leercarpeta.php",
+			"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
 			"settings":
 			{
-				"buffer_size": 1242,
+				"buffer_size": 820,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-lista-de-archivos',\n  templateUrl: './lista-de-archivos.component.html',\n  styleUrls: ['./lista-de-archivos.component.css']\n})\nexport class ListaDeArchivosComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n",
-			"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
-			"file_size": 311,
-			"file_write_time": 131465151816388463,
+			"file": "manejo-de-archivos/src/app/model/archivo.ts",
 			"settings":
 			{
-				"buffer_size": 311,
+				"buffer_size": 205,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "archivo.ts"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.html",
+			"settings":
+			{
+				"buffer_size": 153,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.css",
+			"settings":
+			{
+				"buffer_size": 161,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/archivo/archivo.component.html",
+			"settings":
+			{
+				"buffer_size": 393,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/archivo/archivo.component.css",
+			"settings":
+			{
+				"buffer_size": 97,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/filtro-extension.pipe.ts",
+			"settings":
+			{
+				"buffer_size": 539,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/index.html",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/archivo/archivo.component.ts",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Nom d'utilisateur : diq375485\nMot de passe : pw1972bnrb",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Unix",
+				"name": "Nom d'utilisateur : diq375485"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/service/archivo-service.service.ts",
+			"settings":
+			{
+				"buffer_size": 439,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manejo-de-archivos/src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 96,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -83,7 +208,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 272.0,
 		"last_filter": "insta",
 		"selected_items":
 		[
@@ -104,11 +229,11 @@
 				"Install Package Control"
 			]
 		],
-		"width": 774.0
+		"width": 530.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 130.0,
 		"history":
 		[
 		]
@@ -125,11 +250,21 @@
 	"expanded_folders":
 	[
 		"/var/www/html/Backend",
+		"/var/www/html/Backend/manejo-de-archivos",
+		"/var/www/html/Backend/manejo-de-archivos/src",
+		"/var/www/html/Backend/manejo-de-archivos/src/app",
+		"/var/www/html/Backend/manejo-de-archivos/src/app/archivo",
+		"/var/www/html/Backend/manejo-de-archivos/src/app/lista-de-archivos",
+		"/var/www/html/Backend/manejo-de-archivos/src/app/service",
 		"/var/www/html/Backend/servicios"
 	],
 	"file_history":
 	[
 		"/var/www/html/Backend/servicios/borrar-archivos.php",
+		"/var/www/html/Backend/manejo-de-archivos/src/app/archivo-service.service.ts",
+		"/var/www/html/Backend/manejo-de-archivos/node_modules/@angular/http/@angular/http.es5.js",
+		"/var/www/html/Backend/leercarpeta.php",
+		"/var/www/html/Backend/manejo-de-archivos/src/app/model/archivo.ts",
 		"/var/www/html/Backend/servicios/renombrar-archivos.php",
 		"/var/www/html/Backend/.gitignore"
 	],
@@ -149,6 +284,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"item",
 			"\t$"
 		],
 		"highlight": true,
@@ -168,30 +305,274 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "leercarpeta.php",
+					"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1242,
+						"buffer_size": 820,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								430,
+								395
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "manejo-de-archivos/src/app/model/archivo.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_name": "archivo.ts",
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "manejo-de-archivos/src/app/archivo/archivo.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "manejo-de-archivos/src/app/archivo/archivo.component.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "manejo-de-archivos/src/app/filtro-extension.pipe.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "manejo-de-archivos/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "manejo-de-archivos/src/app/archivo/archivo.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								883,
+								883
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -201,31 +582,127 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "manejo-de-archivos/src/app/lista-de-archivos/lista-de-archivos.component.ts",
+					"buffer": 9,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 311,
+						"buffer_size": 55,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								311,
-								311
+								55,
+								55
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Textile/Textile.sublime-syntax"
+							"auto_name": "Nom d'utilisateur : diq375485",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "manejo-de-archivos/src/app/service/archivo-service.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+						},
+						"translation.x": 120.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "manejo-de-archivos/src/app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "manejo-de-archivos/src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
